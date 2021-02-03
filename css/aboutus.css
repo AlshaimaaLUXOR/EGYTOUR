@@ -1,0 +1,30 @@
+/**************************************************/
+
+.about .container {
+    padding: 48px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about .container img {
+    width: 48%;
+    height: 500px;
+    border-radius: 8px;
+}
+
+.about .container .about-us {
+    width: 48%;
+    height: 500px;
+}
+
+.about .container .about-us h2 {
+    color: #00f;
+    font-size: 28px;
+    margin-bottom: 28px;
+}
+
+.about .container .about-us p {
+    color: #555;
+    font-size: 20px;
+}

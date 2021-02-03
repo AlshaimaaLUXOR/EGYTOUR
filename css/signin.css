@@ -1,0 +1,50 @@
+/*********** Start The Contact ************/
+
+.contact .container {
+    padding: 50px 0;
+}
+
+.contact .container form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contact .container form input {
+    width: 100%;
+    height: 45px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: transparent;
+    border: solid 2px #1a2a3a;
+    border-radius: 10px;
+}
+
+.contact .container form textarea {
+    width: 100%;
+    height: 200px;
+    margin: 25px 0;
+    padding: 10px;
+    font-size: 18px;
+    background-color: transparent;
+    border: solid 2px #1a2a3a;
+    border-radius: 10px;
+}
+
+.contact .container form input[type="submit"] {
+    margin-top: 10px;
+    width: 25%;
+    height: 48px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: solid 1px #3838e0;
+    font-size: 18px;
+    color: #00f;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.contact .container form input[type="submit"]:hover {
+    background-color: #3838e0;
+    color: #fff;
+}
